@@ -1,0 +1,5 @@
+# Project exclude paths
+/cjlgb-app/target/
+/cjlgb-mybatis-plus/target/
+.idea
+*.iml

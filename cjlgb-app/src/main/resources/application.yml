@@ -1,0 +1,14 @@
+#MybatisPlus配置
+mybatis-plus:
+  type-aliases-package: com.teacherblitz.entity
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/neti?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false&allowMultiQueries=true
+    hikari:
+      username: root
+      password: root
+#Web访问端口
+server:
+  port: 10000
